@@ -17,3 +17,6 @@ create table product (
     description varchar(100),
     product_url varchar(300)
 );
+INSERT INTO `vietanhshop`.`user` (`uuid`, `fullname`, `age`, `phone`, `password`, `role`) VALUES ('vietanh9720', 'Nguyễn Văn Việt Anh', '22', '0914917499', '$2a$12$8ofnt8tnj9sBtDbROmFpF.fSApW/nI2N7qLwa7SkZG6u2xj.ObJVm', 'ROLE_ADMIN');
+INSERT INTO `vietanhshop`.`product` (`product_id`, `product_name`, `cost`, `insurance`, `description`, `product_url`) VALUES ('1', 'Iphone 13 Pro Max', '23000000', '2', 'Iphone by Apple .Inc', 'default');
+
